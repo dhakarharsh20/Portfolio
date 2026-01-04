@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Dhakar - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Using FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">HARSH DHAKAR</div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav>
+                <ul onclick="document.getElementById('nav-toggle').checked = false;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#philosophy">Philosophy</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="main-title">HARSH DHAKAR</h1>
+            <div class="subtitle">CONTENT • COPY • STORYTELLING • AI-LED GROWTH</div>
+            
+            <div class="quote-box">
+                <p>I don't just make content,<br><em>I write stories that connect.</em></p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>4+ Years</h3>
+                    <p>EXPERIENCE</p>
+                </div>
+                <div class="stat-card">
+                    <h3>2.5M+</h3>
+                    <p>VIEWS IN 30 DAYS</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Expert In</h3>
+                    <p>CONTENT, AI & CANVA</p>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="#work" class="btn btn-primary">View Work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-outline">Let's Work Together</a>
+            </div>
+        </div>
+        
+        <!-- Decorative corners for hero -->
+        <div class="corner-decor top-left"></div>
+        <div class="corner-decor top-right"></div>
+        <div class="corner-decor bottom-left"></div>
+        <div class="corner-decor bottom-right"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <div class="about-image-container">
+                    <img src="harsh.png" alt="Harsh Dhakar" class="about-image">
+                    <div class="corner-marker top-left"></div>
+                    <div class="corner-marker top-right"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p>I'm Harsh — a content and copy professional working at the intersection of storytelling, strategy, and growth.</p>
+                <p>I believe great content isn't loud. It's clear. It's human. And it knows exactly who it's speaking to.</p>
+                <p>My work focuses on building trust, attention, and long-term brand value — not just momentary virality.</p>
+                <div class="divider-small"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy / How You Think Section -->
+    <section id="philosophy" class="philosophy-section">
+        <div class="container">
+            <h2 class="section-title center">How You Think</h2>
+            <div class="section-subtitle">MINDSET + STRATEGY</div>
+
+            <div class="philosophy-list">
+                <div class="philosophy-item">
+                    <span class="ph-number">01</span>
+                    <h3 class="ph-text">Attention comes before aesthetics</h3>
+                    <div class="ph-divider"></div>
+                </div>
+                <div class="philosophy-item">
+                    <span class="ph-number">02</span>
+                    <h3 class="ph-text">Emotion comes before conversion</h3>
+                    <div class="ph-divider"></div>
+                </div>
+                <div class="philosophy-item">
+                    <span class="ph-number">03</span>
+                    <h3 class="ph-text">Clarity beats cleverness</h3>
+                    <div class="ph-divider"></div>
+                </div>
+                <div class="philosophy-item">
+                    <span class="ph-number">04</span>
+                    <h3 class="ph-text">Systems beat one-off virality</h3>
+                    <div class="ph-divider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / What You Do Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title center uppercase">What You Do</h2>
+            <div class="section-subtitle">SERVICES</div>
+            <div class="divider-center"></div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <h3>Content Strategy</h3>
+                    <p>I design content systems that are consistent, scalable, and audience-first.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Copywriting</h3>
+                    <p>I write copy that converts without sounding salesy or forced.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-regular fa-heart"></i></div>
+                    <h3>Brand Storytelling</h3>
+                    <p>I help brands sound human, clear, and emotionally relevant.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>AI & Canva Design</h3>
+                    <p>Expertise in AI tools and Canva to create visually stunning, scalable content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2 class="section-title center uppercase">Featured Work</h2>
+            <div class="section-subtitle">PROOF FIRST, ALWAYS</div>
+            <div class="divider-center"></div>
+
+            <div class="work-grid">
+                <!-- Card 1: LinkedIn Content -->
+                <div class="work-card">
+    <h3>LINKEDIN CONTENT</h3>
+
+    <div class="work-image-container">
+        <img src="work-1.png" alt="LinkedIn Content" class="work-image">
+    </div>
+
+    <a href="https://www.linkedin.com/in/dhakarharsh19" 
+       target="_blank" 
+       class="arrow-icon" 
+       aria-label="Visit LinkedIn profile">
+        ↗
+    </a>
+</div>
+
+                
+                <!-- Card 2: AI Content Creation -->
+                <div class="work-card">
+                    <h3>AI CONTENT CREATION</h3>
+                    <div class="work-image-container">
+                        <img src="work-2.png" alt="AI Content Creation" class="work-image">
+                    </div>
+                </div>
+                
+                <!-- Card 3: Brand Storytelling & Case Study -->
+                <div class="work-card">
+                    <h3>BRAND STORYTELLING<br>& CASE STUDY</h3>
+                    <div class="work-image-container">
+                        <img src="work-3.png" alt="Brand Storytelling" class="work-image">
+                    </div>
+                </div>
+                
+                <!-- Card 4: Content Strategy & Copywriting -->
+                <div class="work-card">
+                    <h3>CONTENT STRATEGY<br>AND COPYWRITING</h3>
+                    <div class="work-image-container">
+                        <img src="work-4.png" alt="Content Strategy" class="work-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-left">
+                <h2 class="contact-title">Let's build something<br>meaningful together.</h2>
+                <p class="contact-subtitle">I'm open to full-time roles, freelance projects, and collaborations that value clarity over noise.</p>
+                
+                <div class="contact-info">
+                    <p class="reply-text">Replies within 48 hours</p>
+                    <a href="mailto:dhakarharsh01@gmail.com" class="contact-link"><i class="fa-regular fa-envelope"></i> dhakarharsh01@gmail.com</a>
+                    <a href="#" class="contact-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            
+            <div class="contact-right">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inquiry">Type of Inquiry</label>
+                        <div class="select-wrapper">
+                            <select id="inquiry" name="inquiry">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="freelance">Freelance Project</option>
+                                <option value="fulltime">Full-time Role</option>
+                                <option value="collab">Collaboration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project">About the Project</label>
+                        <textarea id="project" name="project" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Harsh Dhakar. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
